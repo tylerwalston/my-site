@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 17px;
+      line-height: 1.7;
+      color: #222;
+      background: #fafaf8;
+      padding: 60px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 52px;
+    }
+
+    header h1 {
+      font-size: 17px;
+      font-weight: normal;
+      letter-spacing: 0.01em;
+    }
+
+    header h1 a {
+      text-decoration: none;
+      color: #222;
+    }
+
+    nav {
+      margin-top: 6px;
+    }
+
+    nav a {
+      color: #666;
+      text-decoration: none;
+      font-size: 15px;
+      margin-right: 18px;
+    }
+
+    nav a:hover {
+      color: #222;
+    }
+
+    /* INDEX PAGE */
+    .section-label {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 20px;
+    }
+
+    .post-list {
+      list-style: none;
+      margin-bottom: 52px;
+    }
+
+    .post-list li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    .post-list a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    .post-list a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .post-list .date {
+      font-size: 14px;
+      color: #aaa;
+      white-space: nowrap;
+      font-family: 'Courier New', monospace;
+    }
+
+    /* ABOUT SECTION */
+    .about p {
+      margin-bottom: 1.1em;
+      color: #444;
+    }
+
+    /* ESSAY / POST PAGE */
+    article h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    article .meta {
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 36px;
+      font-family: 'Courier New', monospace;
+    }
+
+    article p {
+      margin-bottom: 1.25em;
+      color: #333;
+    }
+
+    article p:first-of-type::first-letter {
+      font-size: 1.3em;
+    }
+
+    footer {
+      margin-top: 72px;
+      padding-top: 20px;
+      border-top: 1px solid #e8e8e4;
+      font-size: 13px;
+      color: #bbb;
+    }
+
+    footer a {
+      color: #999;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #222;
+    }
+
+    /* SEPARATOR */
+    hr {
+      border: none;
+      border-top: 1px solid #e8e8e4;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html">Your Name</a></h1>
+    <nav>
+      <a href="index.html">writing</a>
+      <a href="about.html">about</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       THIS IS THE INDEX / WRITING LIST PAGE
+       Add new entries at the top as you write more.
+       ============================================================ -->
+
+  <p class="section-label">Essays</p>
+
+  <ul class="post-list">
+    <li>
+      <a href="post-template.html">The Middle of the Work</a>
+      <span class="date">2025-05</span>
+    </li>
+    <li>
+      <a href="#">Why Most Briefs Fail Before Anyone Reads Them</a>
+      <span class="date">2025-04</span>
+    </li>
+    <li>
+      <a href="#">On Caring About the Thing Itself</a>
+      <span class="date">2025-03</span>
+    </li>
+  </ul>
+
+  <footer>
+    <a href="mailto:you@email.com">email</a>
+  </footer>
+
+</body>
+</html>
